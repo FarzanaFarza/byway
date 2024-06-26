@@ -1,0 +1,655 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    box-sizing: border-box;
+
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body {
+    width: 100%;
+}
+img {
+    display: block;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+ul , ol {
+    list-style: none;
+}
+.wrapper {
+    width: 88%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header {
+    padding: 20px 20px 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+header .left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header .left .logo {
+
+}
+header .left h5 a {
+    text-decoration: none;
+    color: #000;
+}
+header .right {
+    padding-bottom: 0px;
+}
+header .right ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    /*float: right;*/
+}
+header .right ul li a {
+
+}
+header .right ul li a.one button {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    padding: 5px 10px;
+}
+header .right ul li a button {
+    background-color: darkslategray;
+    color: #fff;
+    border: 1px solid#000;
+    padding: 5px 10px;
+}
+#spotlight {
+    width: 100%;
+    /*padding: 5rem 0px 0rem 0rem;*/
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+#spotlight .wrapper {
+    width: 88%;
+    padding: 10px 10px 20px 10px;
+}
+#spotlight .wrapper .spotlight-container{
+    display: flex;
+    /*height: 100vh;*/
+    align-items: center;
+}
+#spotlight .wrapper .left {
+    padding: 80px 0px 80px 0px; 
+    width: 80%;
+    
+}
+#spotlight .wrapper .left h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+#spotlight .wrapper .left p {
+    padding-top: 20px;
+    font-size: medium;
+}
+#spotlight .wrapper .left button {
+    margin-top: 30px;
+    border: 0px solid black;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: rgb(124, 162, 231);
+    color: #fff;
+}
+#spotlight .wrapper .right {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+#spotlight .wrapper .right span {
+    width: 90%;
+    padding: 10px 20px 10px 50px;
+}
+
+ /*content style starts here*/
+
+#content {
+    background-color:rgb(248, 250, 252);
+    width: 100%;
+    height: 20vh;
+}
+#content .wrapper {
+    padding: 0px 0px 0px 1px;
+}
+#content .wrapper ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    position: relative;
+}
+#content .wrapper ul li {
+    line-height: 2rem;
+    padding-top: 2rem;
+}
+#content .wrapper ul li h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+#content .wrapper ul li h1 {
+    font-size: 13px;
+}
+#content .wrapper ul li .one{
+    position: absolute;
+    top: 29px;
+    left: 290px;
+}
+#content .wrapper ul li .two {
+    position: absolute;
+    top: 29px;
+    left: 680px;
+}
+#content .wrapper ul li .three {
+    position: absolute;
+    top: 29px;
+    left: 1070px;
+}
+
+#session {
+    width: 100%;
+}
+#session .wrapper {
+
+}
+#session .wrapper .top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+#session .wrapper .top h1 a {
+    color: #000;
+    font-size: 25px;
+}
+#session .wrapper .top h5 a {
+    color:deepskyblue
+}
+#session .bottom{
+    padding: 3rem 0rem;
+}
+#session .bottom ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#session .bottom ul li {
+    width: 23%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding: 3rem;
+    margin-right: 10px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+}
+#session .bottom ul li span {
+    border-radius: 28px;
+    background-color: #c0d7fc;
+    padding: 10px;
+}
+#session .bottom ul li a {
+    color: #000;
+    margin-top: 3rem;
+}
+#session .bottom ul li a h1 {
+    font-size: 15px;
+    line-height: 1rem;
+}
+#session .bottom ul li a h4 {
+    line-height: 2rem;
+}
+
+ /* session style ends here*/
+
+#course {
+    width: 100%;
+}
+#course .wrapper {
+
+}
+#course .wrapper .top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+#course .wrapper .top h1 a {
+    color: #000;
+    font-size: 25px;
+}
+#course .wrapper .top h5 a {
+    color: deepskyblue;
+}
+#course .wrapper .bottom {
+    padding: 4rem 0rem;
+    width: 100%;
+}
+#course .wrapper .bottom ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#course .wrapper .bottom ul li {
+    width: 23%;
+    flex-direction: column;
+    display: flex;
+    padding: 1rem;
+    margin-right: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+    height: 50vh;
+    max-height: 60vh;
+    line-height: 2rem;
+}
+#course .wrapper .bottom ul li .image1 {
+    margin-bottom: 25px;
+}
+#course .wrapper .bottom ul li h2 a {
+    font-size: 16px;
+    color: #000;
+}
+#course .wrapper .bottom ul li h3 a {
+    color: #000;
+}
+#course .wrapper .bottom ul li .image2 {
+    color: #000;
+    width: 45%;
+}
+#course .wrapper .bottom ul li .image2 h4 a{
+    color: #000;
+}
+#course .wrapper .bottom ul li h1 a {
+    font-weight: bold;
+    font-size: 17px;
+    color: #000;
+}
+#course .wrapper .bottom ul li p a {
+    color: #000;
+}
+
+ /*department style starts here*/
+
+ #department {
+    padding: 1rem;
+    width: 100%;
+ }
+#department .wrapper {
+    width: 88%;
+    margin: 0 auto;
+}
+#department .wrapper .top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+#department .wrapper .top h1 a {
+    color: #000;
+    font-size: 25px;
+}
+#department .wrapper .top h5 a {
+    color: deepskyblue
+}
+#department .wrapper .bottom {
+    padding: 4rem 0rem;
+    width: 100%;
+}
+#department .wrapper .bottom ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#department .wrapper .bottom ul li {
+    width: 23%;
+    flex-direction: column;
+    display: flex;
+    padding: 2rem;
+    margin-right: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+    height: 45vh;
+    max-height: 60vh;
+    line-height: 3rem;
+    text-align: center;
+
+}
+#department .wrapper .bottom ul li .image1 {
+
+}
+#department .wrapper .bottom ul li h2 a {
+    color: #000;
+    font-size: 17px;
+}
+#department .wrapper .bottom ul li h3 a {
+    color: #000;
+}
+#department .wrapper .bottom ul li .image2 {
+    width: 10%;
+    display: flex;
+}
+#department .wrapper .bottom ul li .image2 h4 a {
+    color: #000;
+}
+#department .wrapper .bottom ul li .image2 h5 a {
+    color: #000;
+}
+
+ /* department style ends here */
+
+ /* about style starts here */
+
+#about {
+    background-color: rgb(248, 250, 252);
+    padding: 1rem;
+    width: 100%;
+}
+#about .wrapper {
+
+}
+#about .wrapper .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4rem;
+}
+#about .wrapper .top h1 a {
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+}
+#about .wrapper .top .review {
+    
+}
+#about .wrapper .top .review a {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+#about .wrapper .bottom {
+    padding: 4rem 0rem;
+    width: 100%;
+}
+#about .wrapper .bottom ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#about .wrapper .bottom ul li {
+    width: 30%;
+    flex-direction: column;
+    display: flex;
+    padding: 2rem;
+    margin-right: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+    height: 40vh;
+    max-height: 60vh;
+    background-color: #fff;
+}
+#about .wrapper .bottom ul li .one {
+    width: 10%;
+}
+#about .wrapper .bottom ul li .one a {
+    
+}
+#about .wrapper .bottom ul li p {
+    margin-top: 1rem;
+    line-height: 25px;
+    
+}
+#about .wrapper .bottom ul li .two {
+    margin-top: 1rem;
+    width: 20%;
+}
+#about .wrapper .bottom ul li .two a {
+    display: flex;
+    text-align: center;
+    gap: 2rem;
+}
+#about .wrapper .bottom ul li .two a h1 {
+    margin-top: 1rem;
+    color: #000;
+}
+
+ /* about style ends here */
+
+
+
+#create {
+    width: 100%;
+}
+#create .wrapper {
+    width: 88%;
+    margin: 0 auto;
+    padding: 0px;
+}
+#create .wrapper .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#create .wrapper .top .left {
+
+}
+#create .wrapper .top .right {
+    width: 50%;
+    line-height: 30px;
+}
+#create .wrapper .top .right h1 {
+    font-size: 25px;
+} 
+#create .wrapper .top .right button {
+    background-color: #000;
+    color: #fff;
+    border: 0px solid #000;
+    padding: 18px 60px;
+    border-radius: 11px;
+    margin-top: 10px;
+    display: flex;
+}
+#create .wrapper .top .right button a {
+    text-decoration: none;
+    color: #fff;
+
+}
+#create .wrapper .top .right button span {
+    width: 20%;
+}
+#create .wrapper .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+}
+#create .wrapper .bottom .left {
+    width: 50%;
+    line-height: 30px;
+}
+#create .wrapper .bottom .left h1 {
+    font-size: 25px;
+}
+
+#create .wrapper .bottom .left button {
+    background-color: #000;
+    color: #fff;
+    border: 0px solid #000;
+    padding: 18px 60px;
+    border-radius: 11px;
+    margin-top: 10px;
+    display: flex;
+    gap: 1rem;
+}
+#create .wrapper .bottom .left button span {
+    width: 20%;
+}
+#create .wrapper .bottom .left button a {
+    text-decoration: none;
+    color: #fff;
+}
+#create .wrapper .bottom .right {
+    width: 50%;
+}
+footer {
+    background-color: #141c35;
+    min-height: 50vh;
+    display: flex;
+    padding: 4rem;
+    width: 100%;
+}
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+}
+footer .wrapper .left .byway {
+    display: flex;
+    align-items: center;
+}
+footer .wrapper .left .byway h1 a {
+    color: #fff;
+    font-size: 20px;
+}
+footer .wrapper .left p {
+    color: #fff;
+    line-height: 20px;
+    font-size: 13px;
+    margin-top: 2rem;
+}
+footer .wrapper .middle {
+    width: calc(100% / 9 - 10px);
+}
+footer .wrapper .middle h1 a {
+    color: #fff;
+    font-size: 20px;
+}
+footer .wrapper .middle ul {
+    margin-top: 1rem;
+}
+footer .wrapper .middle ul li {
+    line-height: 30px;
+}
+footer .wrapper .middle ul li a {
+    color: #fff;
+}
+footer .wrapper .center{
+    width: calc(100% / 9 - 10px);
+}
+footer .wrapper .center h1 a {
+    color: #fff;
+    font-size: 20px;
+}
+footer .wrapper .center ul {
+    margin-top: 1rem;
+}
+footer .wrapper .center ul li {
+    line-height: 24px;
+}
+footer .wrapper .center ul li a {
+    color: #fff;
+}
+footer .wrapper .right {
+    width: calc(100% / 4 - 10px);
+}
+footer .wrapper .right h1 a {
+    color: #fff;
+    font-size: 20px;
+}
+footer .wrapper .right ul {
+    margin-top: 1rem;
+}
+footer .wrapper .right ul li {
+    line-height: 27px;
+}
+footer .wrapper .right ul li a {
+    color: #fff;
+}
+footer .wrapper .media {
+    margin-top: 20px ;
+}
+footer .wrapper .right .media span {
+    display: flex;
+    justify-content: space-between;
+}   
+footer .wrapper .right .media span a .facebook {
+    background-color: #fff;
+    border-radius: 53px;
+    padding: 5px;
+}
+footer .wrapper .right .media span a .github {
+    background-color: #fff;
+    border-radius: 53px;
+    padding: 5px;
+}
+footer .wrapper .right .media span a .twitter {
+    background-color: #fff;
+    border-radius: 53px;
+    padding: 5px;
+}
+footer .wrapper .right .media span a .microsoft {
+    background-color: #fff;
+    border-radius: 53px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 1440px) {
+    #content {
+        height: 27vh;
+    }
+    #course .wrapper .bottom ul li {
+        height: 110vh;
+        max-height: 112vh;
+    }
+    #department .wrapper .bottom ul li{
+        height: 100vh;
+        max-height: 120vh;
+    }
+    #about .wrapper .bottom ul li {
+        height: 86vh;
+         max-height: 105vh;
+    }
+    #about .wrapper .bottom ul li p {
+        line-height: 17px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    #course .wrapper .bottom ul li {
+        height: 120vh;
+        max-height: 122vh;
+    }
+    footer .wrapper {
+        width: 100%;
+    }
+} 
+@media screen and (max-width: 1080px) {
+    #department .wrapper .bottom ul li {
+        line-height: 2rem;
+    }
+    #spotlight .wrapper .left h3 {
+        font-size: 37px;
+    }
+}
