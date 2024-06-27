@@ -22,7 +22,7 @@
     
 }
 @font-face {
-    font-family: '../fonts/Sora-Bold.ttf';
+    font-family:'Sora-Regular' ;
     src: url('../fonts/Sora-Regular.ttf');
     
 }
@@ -42,14 +42,14 @@ img {
 }
 a {
     text-decoration: none;
-    font-family: "sora-regular";
+    font-family: "Sora-Regular";
 }
 ul , ol {
     list-style: none;
     font-family: "sora-regular";
 }
 h1 , h2 , h3 , h4 , h5 {
-    font-family: "sora-regular";
+    font-family: "Sora-Regular";
 }
 p {
     font-family: "sora-regular";
@@ -286,7 +286,7 @@ header .right ul li a button {
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin-left: 10px;
-    height: 50vh;
+    height: 53vh;
     max-height: 60vh;
     line-height: 2rem;
 }
@@ -358,7 +358,7 @@ header .right ul li a button {
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin-left: 10px;
-    height: 45vh;
+    height: 48vh;
     max-height: 60vh;
     line-height: 2rem;
     text-align: center;
@@ -386,7 +386,7 @@ header .right ul li a button {
 }
 #department .wrapper .bottom ul li h5 a {
     color: #000;
-    margin-right: 8rem;
+    margin-right: 7rem;
 }
 
  /* department style ends here */
@@ -577,10 +577,11 @@ footer .wrapper .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 3rem;
 }
 footer .wrapper .footer .middle {
     width: calc(100% / 9 - 10px);
+    width: 21%;
 }
 footer .wrapper .footer .middle h1 a {
     color: #fff;
@@ -597,6 +598,7 @@ footer .wrapper .footer .middle ul li a {
 }
 footer .wrapper .footer .center{
     width: calc(100% / 9 - 10px);
+    width: 23%;
 }
 footer .wrapper .footer .center h1 a {
     color: #fff;
@@ -613,6 +615,7 @@ footer .wrapper .footer .center ul li a {
 }
 footer .wrapper .footer .right {
     width: calc(100% / 4 - 10px);
+    width: 26%;
 }
 footer .wrapper .footer .right h1 a {
     color: #fff;
@@ -662,16 +665,19 @@ footer .wrapper .footer .right .media span a .microsoft {
         height: 15vh;
     }
     #course .wrapper .bottom ul li {
-        height: 50vh;
-        max-height: 60vh;
+        height: 60vh;
+        max-height: 80vh;
     }
     #department .wrapper .bottom ul li{
-        height: 43vh;
+        height: 55vh;
         max-height: 60vh;
     }
+    #department .wrapper .bottom ul li h5 a {
+        margin-right: 8rem;
+    }
     #about .wrapper .bottom ul li {
-        height: 40vh;
-         max-height: 60vh;
+        height: 45vh;
+        max-height: 60vh;
     }
     #about .wrapper .bottom ul li p {
         line-height: 17px;
@@ -692,17 +698,21 @@ footer .wrapper .footer .right .media span a .microsoft {
         font-size: 13px;
     }
     #department .wrapper .bottom ul li h5 a {
-        margin-right: 5rem;
+        margin-right: 4rem;
+    }
+    #department .wrapper .bottom ul li{
+        height: 50vh;
+        max-height: 60vh;
     }
 }
 
 @media screen and (max-width: 1080px) {
     #course .wrapper .bottom ul li {
-        height: 52vh;
+        height: 57vh;
         max-height: 60vh;
     }
     #department .wrapper .bottom ul li{
-        height: 40vh;
+        height: 47vh;
         max-height: 60vh;
     }
     #spotlight .wrapper .left h3 {
@@ -718,14 +728,21 @@ footer .wrapper .footer .right .media span a .microsoft {
     footer .wrapper .center {
         width: calc(100% / 4 - 10px);
     }
+    footer .wrapper .footer .middle {
+        width: 25%;
+    }
 }
 @media screen and (max-width: 980px) {
     #spotlight .wrapper .left h3 {
-        font-size: 29px;
+        font-size: 21px;
         font-weight: bold;
     }
     #spotlight .wrapper .right span {
-        width: 100%;
+        padding: 80px 0px 80px 0px;
+        width: 88%;
+    }
+    #spotlight .wrapper .left p {
+        font-size: 13px;
     }
     #content .wrapper ul li h1 {
         font-size: 11px;
@@ -740,7 +757,8 @@ footer .wrapper .footer .right .media span a .microsoft {
     }
     #department .wrapper .bottom ul li {
         width: 45%;
-        height: 60vh;
+        height: 65vh;
+        max-height: 80vh;
     }
     #department .wrapper .bottom ul li h5 a {
         margin-right: 9rem;
@@ -752,9 +770,13 @@ footer .wrapper .footer .right .media span a .microsoft {
     #course .wrapper .bottom ul li {
         width: 45%;
         height: 65vh;
+        max-height: 80vh;
     }
     #about .wrapper .bottom ul li {
-        height: 48vh;
+        height: 53vh;
+    }
+    #about .wrapper .bottom ul li .two {
+        width: 32%;
     }
     #create .wrapper .top .right {
         width: 56%;
@@ -772,14 +794,16 @@ footer .wrapper .footer .right .media span a .microsoft {
     footer .wrapper .center {
         width: calc(100% / 3 - 10px);
     }
-
 }
 @media screen and (max-width: 768px) {
-    #spotlight .wrapper .left h3 {
-        font-size: 24px;
+    #spotlight .wrapper .right span {
+        display: none;
     }
-    #spotlight .wrapper .left p {
-        font-size: small;
+    #spotlight .wrapper .left {
+        width: 190%;
+    }
+    #spotlight .wrapper .left h3 {
+        font-size: 25px;
     }
     #content .wrapper ul li h1 {
         font-size: 9px;
@@ -800,25 +824,33 @@ footer .wrapper .footer .right .media span a .microsoft {
     }
     #course .wrapper .bottom ul li {
         width: 43%;
-        height: 56vh;
-    }
-    #about .wrapper .bottom ul li {
-        height: 48vh;
+        height: 62vh;
     }
     #department .wrapper .bottom ul li {
         width: 44%;
         height: 50vh;
     }
     #department .wrapper .bottom ul li h5 a {
-        margin-right: 7rem;
+        margin-right: 6rem;
     }
     #about .wrapper .bottom ul {
         flex-wrap: wrap;
         gap: 13px;
     }
     #about .wrapper .bottom ul li {
-        height: 37vh;
+        height: 42vh;
         width: 98%;
+        text-align: center;
+    }
+    #about .wrapper .bottom ul li p {
+        line-height: 22px;
+        font-size: 16px;
+    }
+    #about .wrapper .bottom ul li .two {
+        width: 24%;
+    }
+    #about .wrapper .bottom ul li .one {
+        width: 7%;
     }
     #create .wrapper .top .right {
         width: 112%;
@@ -840,10 +872,26 @@ footer .wrapper .footer .right .media span a .microsoft {
     footer .wrapper .footer .right .media span {
         width: 114%;
     }
+    footer .wrapper {
+        display: block;
+    }
+    footer .wrapper .footer { 
+        gap: 3rem;
+    }
 }
 @media screen and (max-width: 640px) {
+    #spotlight .wrapper .left {
+        width: 190%;
+    }
     #spotlight .wrapper .left h3 {
-        font-size: 19px;
+        font-size: 25px;
+    }
+    #about .wrapper .bottom ul li p {
+        line-height: 21px;
+        font-size: 15px;
+    }
+    #spotlight .wrapper .left p {
+        font-size: 15px;
     }
     #content .wrapper ul li h1 {
         font-size: 7px;
@@ -851,10 +899,39 @@ footer .wrapper .footer .right .media span a .microsoft {
     #content .wrapper ul li h3 {
         font-size: 15px;
     }
+    #course .wrapper .bottom ul li {
+        width: 43%;
+        height: 60vh;
+    }
+    #create .wrapper .bottom .right {
+        display: none;
+    }
+    #create .wrapper .top .left {
+        display: none;
+    }
+    #create .wrapper .top .right {
+        text-align: center;
+    }
+    #create .wrapper .top .right button {
+        margin-left: 41px;
+    }
+    #create .wrapper .bottom .left h1 {
+        font-size: 23px;
+        font-weight: bolder;
+    }
+    #create .wrapper .bottom .left {
+        text-align: center;
+    }
+    #create .wrapper .bottom {
+        padding-left: 8rem;
+    }
     #department .wrapper .bottom ul li {
         width: 94%;
-        height: 73vh;
+        height: 85vh;
         max-height: 110vh;
+    }
+    #department .wrapper .bottom ul li .image2 {
+        width: 15%;
     }
     #department .wrapper .bottom ul li h5 a {
         margin-right: 21rem;
@@ -864,6 +941,12 @@ footer .wrapper .footer .right .media span a .microsoft {
     }
     footer .wrapper {
        display: block;
+    }
+    footer .wrapper .footer {
+        gap: 3rem;
+    }
+    footer .wrapper .footer {
+        align-items: unset;
     }
 }
 @media screen and (max-width:540px) {
@@ -883,13 +966,20 @@ footer .wrapper .footer .right .media span a .microsoft {
     #session .bottom ul li {
         width: 102%;
     }
+    #create .wrapper .bottom .left button {
+        padding: 8px 22px;
+    }
     #course .wrapper .bottom ul li {
         width: 112%;
-        height: 63vh;
+        height: 72vh;
         max-height: 120vh;
     }
+    #about .wrapper .bottom ul li p {
+        line-height: 24px;
+        font-size: 13px;
+    }
     #department .wrapper .bottom ul li {
-        height: 65vh;
+        height: 69vh;
     }
     #department .wrapper .bottom ul li h5 a {
         margin-right: 17rem;
@@ -897,10 +987,60 @@ footer .wrapper .footer .right .media span a .microsoft {
     #about .wrapper .top .review a {
         margin-right: 20px;
     }
-    #create .wrapper .top .right button {
-        padding: 3px 2px;
-    }
     footer .wrapper {
         display: block;
+    }
+    footer .wrapper .footer .center {
+        width: 19%;
+    }
+    footer .wrapper .footer .middle {
+        width: 4%;
+    }
+}
+@media screen and (max-width: 480px) {
+    #department .wrapper .bottom ul li h5 a {
+        margin-right: 9rem;
+    }
+    #about .wrapper .bottom ul li p {
+        line-height: 16px;
+        font-size: 11px;
+    }
+    #about .wrapper .top h1 a {
+        font-size: 16px;
+    }
+    #about .wrapper .top .review {
+        width: 19%;
+    }
+    #about .wrapper .top .review a {
+        margin-right: 37px;
+    }
+    #create .wrapper .top .right button {
+        padding: 8px 6px;
+    }
+    #create .wrapper .top .right {
+        line-height: 26px;
+    }
+    #create .wrapper .bottom .left h1 {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #create .wrapper .bottom .left {
+        width: 102%;
+        line-height: 22px;
+    }
+    #create .wrapper .bottom {
+        padding-left: 4rem;
+    }
+    #create .wrapper .bottom .left button {
+        padding: 10px 35px;
+    }
+    footer .wrapper .footer {
+        display: none;
+    }
+    #content .wrapper ul li h1 {
+        font-size: 5px;
+    }
+    #content .wrapper ul li h3 {
+        font-size: 10px;
     }
 }
