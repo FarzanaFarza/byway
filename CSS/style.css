@@ -704,6 +704,9 @@ footer .wrapper .footer .right .media span a .microsoft {
         height: 50vh;
         max-height: 60vh;
     }
+    footer .wrapper .footer .center {
+        width: 22%;
+    }
 }
 
 @media screen and (max-width: 1080px) {
@@ -727,14 +730,21 @@ footer .wrapper .footer .right .media span a .microsoft {
     }
     footer .wrapper .center {
         width: calc(100% / 4 - 10px);
+        width: 37%;
     }
     footer .wrapper .footer .middle {
         width: 25%;
     }
+    footer .wrapper .footer .right {
+        width: calc(188% / 4 - 10px);
+    }
+    footer .wrapper {
+        width: 103%;
+    }
 }
 @media screen and (max-width: 980px) {
     #spotlight .wrapper .left h3 {
-        font-size: 21px;
+        font-size: 30px;
         font-weight: bold;
     }
     #spotlight .wrapper .right span {
@@ -794,16 +804,25 @@ footer .wrapper .footer .right .media span a .microsoft {
     footer .wrapper .center {
         width: calc(100% / 3 - 10px);
     }
+    footer .wrapper .footer {
+        gap: 3rem;
+    }
+    footer .wrapper .footer .middle h1 a {
+        font-size: 14px;
+    }
 }
 @media screen and (max-width: 768px) {
     #spotlight .wrapper .right span {
         display: none;
     }
+    #spotlight .wrapper .left h3 {
+        font-size: 34px;
+    }
     #spotlight .wrapper .left {
         width: 190%;
     }
-    #spotlight .wrapper .left h3 {
-        font-size: 25px;
+    #spotlight .wrapper .left p {
+        font-size: 16px;
     }
     #content .wrapper ul li h1 {
         font-size: 9px;
@@ -873,10 +892,14 @@ footer .wrapper .footer .right .media span a .microsoft {
         width: 114%;
     }
     footer .wrapper {
-        display: block;
+        flex-direction: column;
     }
-    footer .wrapper .footer { 
-        gap: 3rem;
+    footer .wrapper .footer {
+        align-items: unset;
+        gap: 2rem;
+    }
+    footer .wrapper .footer .right .media span {
+        width: 102%;
     }
 }
 @media screen and (max-width: 640px) {
@@ -884,7 +907,7 @@ footer .wrapper .footer .right .media span a .microsoft {
         width: 190%;
     }
     #spotlight .wrapper .left h3 {
-        font-size: 25px;
+        font-size: 29px;
     }
     #about .wrapper .bottom ul li p {
         line-height: 21px;
@@ -939,22 +962,24 @@ footer .wrapper .footer .right .media span a .microsoft {
     #create .wrapper .bottom .left button {
         padding: 11px 41px;
     }
-    footer .wrapper {
-       display: block;
-    }
     footer .wrapper .footer {
         gap: 3rem;
+        width: 105%;
+        flex-direction: column;
     }
-    footer .wrapper .footer {
-        align-items: unset;
+    footer .wrapper .footer .middle {
+        width: 25%;
+    }
+    footer .wrapper .footer .right .media span {
+        width: 130%;
     }
 }
 @media screen and (max-width:540px) {
     #spotlight .wrapper .left p {
-        font-size: 10px;
+        font-size: 13px;
     }
     #spotlight .wrapper .left h3 {
-        font-size: 18px;
+        font-size: 26px;
     }
     #spotlight .wrapper .right span {
         width: 90%;
@@ -1034,13 +1059,25 @@ footer .wrapper .footer .right .media span a .microsoft {
     #create .wrapper .bottom .left button {
         padding: 10px 35px;
     }
-    footer .wrapper .footer {
-        display: none;
-    }
     #content .wrapper ul li h1 {
         font-size: 5px;
     }
     #content .wrapper ul li h3 {
         font-size: 10px;
+    }
+    #spotlight .wrapper .left p {
+        font-size: 13px;
+    }
+    #spotlight .wrapper .left h3 {
+        font-size: 19px;
+    }
+    footer .wrapper .footer .middle {
+        width: 60%;
+    }
+    footer .wrapper .footer .right {
+        width: calc(317% / 4 - 10px);
+    }
+    footer .wrapper .footer .center {
+        width: 65%;
     }
 }
