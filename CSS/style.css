@@ -550,7 +550,7 @@ footer {
     background-color: #141c35;
     min-height: 50vh;
     display: flex;
-    padding: 4rem;
+    padding: 3rem;
     width: 100%;
 }
 footer .wrapper {
@@ -559,6 +559,9 @@ footer .wrapper {
     align-items: center;
     width: 88%;
 }
+footer .wrapper .left {
+    margin-right: 12rem;
+} 
 footer .wrapper .left .byway {
     display: flex;
     align-items: center;
@@ -577,7 +580,8 @@ footer .wrapper .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem;
+    margin-top: 3rem;
+    margin-right: 2rem;
 }
 footer .wrapper .footer .middle {
     width: calc(100% / 9 - 10px);
@@ -616,6 +620,7 @@ footer .wrapper .footer .center ul li a {
 footer .wrapper .footer .right {
     width: calc(100% / 4 - 10px);
     width: 26%;
+    margin-top: 8rem;
 }
 footer .wrapper .footer .right h1 a {
     color: #fff;
@@ -901,6 +906,12 @@ footer .wrapper .footer .right .media span a .microsoft {
     footer .wrapper .footer .right .media span {
         width: 102%;
     }
+    footer.wrapper .left {
+        margin-right: 12rem;
+    }
+    footer .wrapper .footer .right {
+        margin-top: 0rem;
+    }
 }
 @media screen and (max-width: 640px) {
     #spotlight .wrapper .left {
@@ -966,6 +977,7 @@ footer .wrapper .footer .right .media span a .microsoft {
         gap: 3rem;
         width: 105%;
         flex-direction: column;
+        margin-left: 5rem;
     }
     footer .wrapper .footer .middle {
         width: 25%;
@@ -1019,7 +1031,11 @@ footer .wrapper .footer .right .media span a .microsoft {
         width: 19%;
     }
     footer .wrapper .footer .middle {
-        width: 4%;
+        width: 20%;
+    }
+    footer .wrapper .footer {
+        width: 93%;
+        margin-left: 1rem;
     }
 }
 @media screen and (max-width: 480px) {
