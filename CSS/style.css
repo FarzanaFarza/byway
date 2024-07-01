@@ -579,80 +579,44 @@ footer .wrapper .footer {
     display: flex;
     justify-content: space-between;
     margin: 1rem;
+    gap: 3rem;
 }
-footer .wrapper .footer .middle {
-    width: 21%;
+footer .wrapper .footer ul {
+   line-height: 2rem;
 }
-footer .wrapper .footer .middle h1 a {
+footer .wrapper .footer ul li {
+
+}
+footer .wrapper .footer ul li h1 a {
     color: #fff;
     font-size: 20px;
 }
-footer .wrapper .footer .middle ul {
-    margin-top: 1rem;
-}
-footer .wrapper .footer .middle ul li {
-    line-height: 30px;
-}
-footer .wrapper .footer .middle ul li a {
+footer .wrapper .footer ul li a {
     color: #fff;
+    font-size: 14px;
 }
-footer .wrapper .footer .center{
-    width: 23%;
-}
-footer .wrapper .footer .center h1 a {
-    color: #fff;
-    font-size: 20px;
-}
-footer .wrapper .footer .center ul {
-    margin-top: 1rem;
-}
-footer .wrapper .footer .center ul li {
-    line-height: 24px;
-}
-footer .wrapper .footer .center ul li a {
-    color: #fff;
-}
-footer .wrapper .footer .right {
-    width: 26%;
-}
-footer .wrapper .footer .right h1 a {
-    color: #fff;
-    font-size: 20px;
-}
-footer .wrapper .footer .right ul {
-    margin-top: 1rem;
-}
-footer .wrapper .footer .right ul li {
-    line-height: 27px;
-}
-footer .wrapper .footer .right ul li a {
-    color: #fff;
-}
-footer .wrapper .footer .media {
-    margin-top: 20px ;
-}
-footer .wrapper .footer .right .media span {
+footer .wrapper .footer ul li span {
     display: flex;
     justify-content: space-between;
-    width: 95%;
-    gap: 8px;
+    width: 70%;
+    gap: 1rem;
 }   
-footer .wrapper .footer .right .media span a .facebook {
+footer .wrapper .footer ul li span a .facebook {
     background-color: #fff;
     border-radius: 53px;
     padding: 5px;
 }
-footer .wrapper .footer .right .media span a .github {
+footer .wrapper .footer ul li span a .github {
     background-color: #fff;
     border-radius: 53px;
     padding: 5px;
 }
-footer .wrapper .footer .right .media span a .twitter {
+footer .wrapper .footer ul li span a .twitter {
     background-color: #fff;
     border-radius: 53px;
     padding: 5px;
 }
-footer .wrapper .footer .right .media span a .microsoft {
+footer .wrapper .footer ul li span a .microsoft {
     background-color: #fff;
     border-radius: 53px;
     padding: 5px;
@@ -680,14 +644,12 @@ footer .wrapper .footer .right .media span a .microsoft {
     #about .wrapper .bottom ul li p {
         line-height: 17px;
     }
-    .wrapper .footer .right .media span {
+    footer .wrapper .footer ul li span {
         width: 86%;
         gap: 5px;
     }
-    footer .wrapper .footer .right {
-        width: calc(153% / 4 - 10px);
-    }
-    footer .wrapper .footer .middle {
+    footer .wrapper .footer {
+        width: 100%;
     }
 }
 @media screen and (max-width: 1280px){
@@ -704,11 +666,8 @@ footer .wrapper .footer .right .media span a .microsoft {
         height: 50vh;
         max-height: 60vh;
     }
-    footer .wrapper .footer .center {
-        width: 22%;
-    }
-    footer .wrapper .footer .middle {
-        width: 25%;
+    footer .wrapper .footer {
+        width: 160%;
     }
 }
 
@@ -727,19 +686,6 @@ footer .wrapper .footer .right .media span a .microsoft {
     }
     #department .wrapper .bottom ul li h5 a {
         margin-right: 3rem;
-    }
-    footer .wrapper .middle {
-        width: calc(100% / 8 - -46px);
-    }
-    footer .wrapper .center {
-        width: calc(100% / 4 - 10px);
-        width: 37%;
-    }
-    footer .wrapper .footer .middle {
-        width: 25%;
-    }
-    footer .wrapper .footer .right {
-        width: calc(188% / 4 - 10px);
     }
     footer .wrapper {
         width: 103%;
@@ -801,17 +747,13 @@ footer .wrapper .footer .right .media span a .microsoft {
         line-height: 27px;
         padding: 3rem;
     }
-    footer .wrapper .middle {
-        width: calc(100% / 4 - -46px);
-    }
-    footer .wrapper .center {
-        width: calc(100% / 3 - 10px);
+    footer .wrapper {
+        flex-direction: column;
     }
     footer .wrapper .footer {
-        gap: 3rem;
-    }
-    footer .wrapper .footer .middle h1 a {
-        font-size: 14px;
+        width: 90%;
+        margin-top: 2rem;
+        margin-left: 0rem;
     }
 }
 @media screen and (max-width: 768px) {
@@ -891,7 +833,7 @@ footer .wrapper .footer .right .media span a .microsoft {
     #create .wrapper .bottom .right {
         width: 52%;
     }
-    footer .wrapper .footer .right .media span {
+    footer .wrapper .footer ul li span {
         width: 114%;
     }
     footer .wrapper {
@@ -901,12 +843,10 @@ footer .wrapper .footer .right .media span a .microsoft {
         align-items: unset;
         gap: 2rem;
         margin-top: 3rem;
+        width: 97%;
     }
-    footer .wrapper .footer .right .media span {
-        width: 80%;
-    }
-    footer.wrapper .left {
-
+    footer .wrapper .footer ul li span {
+        width: 73%;
     }
 }
 @media screen and (max-width: 640px) {
@@ -975,11 +915,17 @@ footer .wrapper .footer .right .media span a .microsoft {
         flex-direction: column;
         margin-left: 0rem;
     }
-    footer .wrapper .footer .middle {
-        width: 25%;
+    footer .wrapper .footer ul li span {
+        width: 45%;
     }
-    footer .wrapper .footer .right .media span {
-        width: 130%;
+    #content .wrapper ul {
+        flex-wrap: wrap;
+    }
+    #content .wrapper ul li {
+        width: 40%;
+    }
+    #content {
+        height: 30vh;
     }
 }
 @media screen and (max-width:540px) {
@@ -1022,12 +968,6 @@ footer .wrapper .footer .right .media span a .microsoft {
     }
     footer .wrapper {
         display: block;
-    }
-    footer .wrapper .footer .center {
-        width: 19%;
-    }
-    footer .wrapper .footer .middle {
-        width: 20%;
     }
     footer .wrapper .footer {
         width: 93%;
@@ -1082,14 +1022,5 @@ footer .wrapper .footer .right .media span a .microsoft {
     }
     #spotlight .wrapper .left h3 {
         font-size: 19px;
-    }
-    footer .wrapper .footer .middle {
-        width: 60%;
-    }
-    footer .wrapper .footer .right {
-        width: calc(317% / 4 - 10px);
-    }
-    footer .wrapper .footer .center {
-        width: 65%;
     }
 }
