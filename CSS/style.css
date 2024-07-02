@@ -865,7 +865,8 @@ footer .wrapper .footer ul li span a .microsoft {
         text-align: center;
     }
     #create .wrapper .bottom {
-        padding-left: 8rem;
+        align-items: center;
+        justify-content: space-around;
     }
     #department .wrapper .bottom ul li {
         width: 94%;
@@ -876,8 +877,19 @@ footer .wrapper .footer ul li span a .microsoft {
     #department .wrapper .bottom ul li h5 a {
         margin-right: 21rem;
     }
+    #create .wrapper .top .right {
+        text-align: center;
+    }
+    #create .wrapper .top .right button {
+        margin-left: 5rem;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+    }
     #create .wrapper .bottom .left button {
-        padding: 11px 41px;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
     }
     footer .wrapper .footer {
         gap: 3rem;
@@ -917,8 +929,19 @@ footer .wrapper .footer ul li span a .microsoft {
     #session .bottom ul li {
         width: 102%;
     }
+    #create .wrapper .top .right {
+        text-align: center;
+    }
+    #create .wrapper .top .right button {
+        margin-left: 2rem;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+    }
     #create .wrapper .bottom .left button {
-        padding: 8px 22px;
+        padding: 14px 40px;
+        align-items: center;
+        justify-content: space-between;
     }
     #course .wrapper .bottom ul li {
         width: 112%;
@@ -959,7 +982,7 @@ footer .wrapper .footer ul li span a .microsoft {
         margin-right: 37px;
     }
     #create .wrapper .top .right button {
-        padding: 8px 6px;
+        padding: 4px 10px;
     }
     #create .wrapper .top .right {
         line-height: 26px;
@@ -976,7 +999,7 @@ footer .wrapper .footer ul li span a .microsoft {
         padding-left: 4rem;
     }
     #create .wrapper .bottom .left button {
-        padding: 10px 35px;
+        padding: 11px 41px;
     }
     #content .wrapper ul li h1 {
         font-size: 8px;
