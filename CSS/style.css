@@ -851,22 +851,16 @@ footer .wrapper .footer ul li span a .microsoft {
     #create .wrapper .top .left {
         display: none;
     }
-    #create .wrapper .top .right {
-        text-align: center;
-    }
-    #create .wrapper .top .right button {
-        margin-left: 41px;
-    }
     #create .wrapper .bottom .left h1 {
-        font-size: 23px;
-        font-weight: bolder;
-    }
-    #create .wrapper .bottom .left {
-        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
     }
     #create .wrapper .bottom {
-        align-items: center;
-        justify-content: space-around;
+        padding: 3rem;
+    }
+    #create .wrapper .bottom .left {
+        width: 83%;
+        line-height: 27px;
     }
     #department .wrapper .bottom ul li {
         width: 94%;
@@ -877,19 +871,15 @@ footer .wrapper .footer ul li span a .microsoft {
     #department .wrapper .bottom ul li h5 a {
         margin-right: 21rem;
     }
-    #create .wrapper .top .right {
-        text-align: center;
-    }
-    #create .wrapper .top .right button {
-        margin-left: 5rem;
-        display: flex;
-        align-items: stretch;
-        justify-content: space-between;
-    }
     #create .wrapper .bottom .left button {
         align-items: center;
         text-align: center;
         justify-content: space-between;
+        padding: 15px 71px;
+    }
+    #create .wrapper .top .right h1 {
+        font-size: 22px;
+        font-weight: bold;
     }
     footer .wrapper .footer {
         gap: 3rem;
@@ -929,11 +919,7 @@ footer .wrapper .footer ul li span a .microsoft {
     #session .bottom ul li {
         width: 102%;
     }
-    #create .wrapper .top .right {
-        text-align: center;
-    }
     #create .wrapper .top .right button {
-        margin-left: 2rem;
         display: flex;
         align-items: stretch;
         justify-content: space-between;
@@ -982,7 +968,7 @@ footer .wrapper .footer ul li span a .microsoft {
         margin-right: 37px;
     }
     #create .wrapper .top .right button {
-        padding: 4px 10px;
+        padding: 7px 10px;
     }
     #create .wrapper .top .right {
         line-height: 26px;
@@ -994,9 +980,6 @@ footer .wrapper .footer ul li span a .microsoft {
     #create .wrapper .bottom .left {
         width: 102%;
         line-height: 22px;
-    }
-    #create .wrapper .bottom {
-        padding-left: 4rem;
     }
     #create .wrapper .bottom .left button {
         padding: 11px 41px;
