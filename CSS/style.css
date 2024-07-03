@@ -499,6 +499,8 @@ header .right ul li a button {
     border-radius: 11px;
     margin-top: 10px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 #create .wrapper .top .right button a {
     text-decoration: none;
@@ -881,6 +883,11 @@ footer .wrapper .footer ul li span a .microsoft {
         font-size: 22px;
         font-weight: bold;
     }
+    #create .wrapper .top .right button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     footer .wrapper .footer {
         gap: 3rem;
         width: 105%;
@@ -921,7 +928,7 @@ footer .wrapper .footer ul li span a .microsoft {
     }
     #create .wrapper .top .right button {
         display: flex;
-        align-items: stretch;
+        align-items: center;
         justify-content: space-between;
     }
     #create .wrapper .bottom .left button {
@@ -968,7 +975,9 @@ footer .wrapper .footer ul li span a .microsoft {
         margin-right: 37px;
     }
     #create .wrapper .top .right button {
-        padding: 7px 10px;
+        padding: 10px 13px;
+        display: flex;
+        align-items: center;
     }
     #create .wrapper .top .right {
         line-height: 26px;
